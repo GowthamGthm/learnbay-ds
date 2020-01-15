@@ -59,4 +59,12 @@ public class DynamicSizeStack<E> implements IStack<E> {
         }
         return false;
     }
+
+    @Override
+    public void print() {
+            for(int i=top;i>=0;i--)
+            {
+                System.out.println(array[i]);
+            }
+    }
 }

@@ -9,4 +9,6 @@ public interface IStack<E> {
     public boolean isEmpty();
 
     public boolean isFull();
+
+    public void print();
 }
