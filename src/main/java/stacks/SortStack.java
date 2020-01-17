@@ -13,7 +13,7 @@ public class SortStack {
         stack.push(90);
         stack.push(10);
         stack.push(80);
-        sort(stack);
+        sortWithoutExtraSpace(stack);
         System.out.println(stack);
         Stack<Integer> stackResult=new Stack<>();
         sortUsingTwoNewStack(stack,stackResult,new Stack<>(),-1);
@@ -45,12 +45,12 @@ public class SortStack {
         sortUsingTwoNewStack(originalStack,resultStack, midStack, min);
 
     }
-    static void sort(Stack<Integer> originalStack) {
+    static void sortWithoutExtraSpace(Stack<Integer> originalStack) {
         if (originalStack.isEmpty()) {
             return;
         }
         int pop = originalStack.pop();
-        sort(originalStack);
+        sortWithoutExtraSpace(originalStack);
         insertElement(originalStack,pop);
 
     }
