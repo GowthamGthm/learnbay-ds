@@ -1,5 +1,10 @@
 import java.util.Stack;
 
+
+/*Sort a stack*
+
+Time Complexity-O(n^2)
+ */
 public class SortStack {
 
 
