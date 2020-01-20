@@ -29,7 +29,8 @@ public class SortStack {
     }
 
 
-    static void sortUsingTwoNewStack(Stack<Integer> originalStack, Stack<Integer> resultStack, Stack<Integer> midStack, int min) {
+    private static void sortUsingTwoNewStack(Stack<Integer> originalStack,
+        Stack<Integer> resultStack, Stack<Integer> midStack, int min) {
         if (originalStack.isEmpty()) {
             resultStack.push(min);
             min = -1;
@@ -51,7 +52,7 @@ public class SortStack {
         sortUsingTwoNewStack(originalStack,resultStack, midStack, min);
 
     }
-    static void sortWithoutExtraSpace(Stack<Integer> originalStack) {
+    private static void sortWithoutExtraSpace(Stack<Integer> originalStack) {
         if (originalStack.isEmpty()) {
             return;
         }
