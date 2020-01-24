@@ -33,6 +33,7 @@ public class DeleteMiddleElementInStack {
 
   private static int size=0;
   private static int curr=0;
+
   public static void main(String[] args) {
     Stack<Integer> stack = new Stack<>();
     stack.push(2);
@@ -40,16 +41,13 @@ public class DeleteMiddleElementInStack {
     stack.push(7);
     stack.push(9);
     stack.push(10);
-   stack.push(12);
+    stack.push(12);
     stack.push(13);
-  stack.push(15);
-
+    stack.push(15);
 
     deleteMiddleElementFromStackWhenStackSizeIsKnown(stack, stack.size(), 0);
     System.out.println(stack);
     deleteMiddleElementFromStackWithoutUsingSizeMethod(stack);
     System.out.println(stack);
   }
-
-
 }
