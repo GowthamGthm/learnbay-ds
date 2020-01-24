@@ -19,18 +19,19 @@ public class DeleteMiddleElementInStack {
   private static void deleteMiddleElementFromStackWithoutUsingSizeMethod(Stack<Integer> stack) {
 
     if (stack.isEmpty()) {
+      if(size%2!=0) size++;
       return;
     }
 
     int top=stack.pop();
     size++;
     deleteMiddleElementFromStackWithoutUsingSizeMethod(stack);
-    if(++curr!=(Math.ceil(size/2)) ){
+    if(++curr!=size/2) {
       stack.push(top);
     }
   }
 
-  private static double size=0;
+  private static int size=0;
   private static int curr=0;
   public static void main(String[] args) {
     Stack<Integer> stack = new Stack<>();
@@ -41,7 +42,7 @@ public class DeleteMiddleElementInStack {
     stack.push(10);
    stack.push(12);
     stack.push(13);
-    stack.push(15);
+  stack.push(15);
 
 
     deleteMiddleElementFromStackWhenStackSizeIsKnown(stack, stack.size(), 0);
