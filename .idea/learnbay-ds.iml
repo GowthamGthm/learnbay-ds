@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java/Warmup1--05Jan2020" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java/leet-code-pdf" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java/stacks" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java/LinkedList" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
