@@ -3,7 +3,7 @@ public class SpiralMatrix {
     private void spiralMatrix(int[][] a)
 
     {
-
+/*
         int col=a[0].length;
         int rows=a.length;
 
@@ -26,7 +26,7 @@ public class SpiralMatrix {
             {
                 System.out.println(a[k][m]);
             }
-        }
+        }*/
 
 
     }
