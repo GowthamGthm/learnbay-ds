@@ -18,7 +18,6 @@ public class ValidateStackSequence {
 
             }
 
-
             return j==pushed.length;
         }
 
