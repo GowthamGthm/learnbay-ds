@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java/arrays" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java/string" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java/Queues" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java/tree" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

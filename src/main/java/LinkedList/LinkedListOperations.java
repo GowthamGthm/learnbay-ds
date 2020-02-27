@@ -18,7 +18,7 @@ public class LinkedListOperations<E extends Comparable<E>> {
 
     private Node<E> head = null;
 
-    static class Node<E> {
+    private static class Node <E>{
         E value;
         Node<E> next;
 
